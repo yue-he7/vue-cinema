@@ -1,0 +1,199 @@
+@media(max-width:1200px) {
+    .films__cards {
+        grid-template-columns: repeat(2, 255px);
+        justify-content: center;
+        overflow-x: scroll;
+    }
+
+    .fims__card_bg {
+        object-fit: fill;
+    }
+}
+
+
+@media(max-width:992px) {
+
+    .wanda {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+
+    .flash {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .great {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .GOTHAM {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .witcher {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .collections__allcards {
+        grid-template-columns: 50%;
+        justify-content: center;
+    }
+
+
+
+}
+
+
+
+@media(max-width:756px) {
+    .header__content_title {
+        font-size: 55px;
+    }
+
+    .header__content_text {
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+
+    .header__content {
+        align-items: center;
+    }
+
+    .widow::after {
+        background: linear-gradient(180deg, #DEF7FF 0%, #F4FCFF 0%, rgba(255, 255, 255, 0) 100.72%);
+    }
+
+    .widow__inner {
+        align-items: center;
+    }
+
+    .widow__inner_text {
+        text-align: center;
+    }
+
+    .series__cards {
+        grid-auto-rows: minmax(125px, max-content);
+    }
+
+    .footer__item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media(max-width:576px) {
+    .nav__item {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .padding {
+        padding-top: 0;
+    }
+
+    .header__content_title {
+        font-size: 31px;
+        line-height: 50px;
+    }
+
+    .header__content {
+        height: 500px;
+    }
+
+    .header {
+        height: 500px;
+    }
+
+    .films__cards {
+        grid-template-columns: 255px;
+    }
+
+    .widow__inner {
+        align-items: center;
+    }
+
+    .widow__inner img {
+        width: 100%;
+    }
+
+    .nav__list {
+        gap: 20px;
+    }
+
+    .widow__inner_text {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .wanda {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+
+    .flash {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    .great {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    .GOTHAM {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    .witcher {
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+    .series__card_text {
+        font-size: 13px;
+    }
+
+    .collections__allcards {
+        grid-template-columns: 350px;
+    }
+
+}
+
+@media(max-width:390px) {
+    .btn {
+        padding: 17px 25px;
+    }
+
+    .series__card_title {
+        font-size: 30px;
+    }
+
+    .collections__allcards {
+        grid-template-columns: 100%;
+    }
+
+    .footer_text {
+        font-size: 15px;
+    }
+
+    .thrones {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    
+    .title {
+        margin: 0 auto;
+    }
+
+}
